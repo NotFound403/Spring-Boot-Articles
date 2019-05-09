@@ -43,5 +43,5 @@ Spring Boot 2.x Articles(系列文章)。文章中涉及的代码位于 [Github 
 40. Spring Boot 2实践系列(四十)：源码分析启动类上 @SpringBootApplication 注解
 41. Spring Boot 2实践系列(四十一)：源码分析自动配置实现及手写自动配置
 42. Spring Boot 2实践系列(四十二)：源码分析自动配置之编码过滤器
-43。 Spring Boot 2实践系列(四十三)：源码分析 SpringApplication 执行流程
+43. Spring Boot 2实践系列(四十三)：源码分析 SpringApplication 执行流程
 44. Spring Boot 2实践系列(四十四)：集成 Kafka 消息中间件
