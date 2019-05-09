@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 2实践系列(一)：FastJson集成和使用
+title: Spring Boot 2实践系列(二)：FastJson集成和使用
 comments: true
 date: 2018-05-19 9:44:16
 tags: [fastjson]
