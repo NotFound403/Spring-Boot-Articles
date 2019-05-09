@@ -102,6 +102,14 @@ Spring 为 Kafka 提供了工厂 Bean 来创建 *StreamsBuilder* 对象来管理
 
 只要在类路径下存在 *kafka-streams* 依赖，并且使用 *@EnableKafkaStreams* 注解启用了 Kafka Streams，Spring Boot 就会自动配置必要的 *KafkaStreamsConfiguration* Bean。
 
+``` xml
+<!--kafka streams-->
+<dependency>
+    <groupId>org.apache.kafka</groupId>
+    <artifactId>kafka-streams</artifactId>
+</dependency>
+```
+
 启用了 Kafka Streams，意味着必须设置 *application id* 和 *bootstrap server* ，前者可通过 *spring.kafka.streams.application-id* 设置，如果未设置则默认使用 *spring.application.name*；后者可以全局设置或忖为流重写。
 
 要使用 Factory Bean，只需在自定义的 *KStream* 类型的 Bean，使用 *StreamsBuilder* 构建，如下示例：
